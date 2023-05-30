@@ -6,6 +6,12 @@ In this paper, we propose a novel methodology to effectively detect anomalies in
 
 ![Architecture](./fig/fig3.png)
 
+### Requirements
+Dependencies can be installed by following the command below:
+```
+pip install -r requirements.txt
+```
+
 ### Training
 + Train VAE
   ```
@@ -20,5 +26,8 @@ In this paper, we propose a novel methodology to effectively detect anomalies in
 ### Analyzing & Detecting anomalies
 + Execute **process.ipynb** for calculating anomaly score
 + Execute **analysis.ipynb** for finding anomaly cases
+![score](./fig/fig8.png)
 + Execute **visualize.ipynb** for visualizing detected anomaly cases
+  + Case #1
+  ![case1](./fig/fig10.png)
 
