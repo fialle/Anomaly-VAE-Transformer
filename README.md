@@ -4,6 +4,8 @@ DeFi, a decentralized financial service based on blockchain, is growing to provi
 
 In this paper, we propose a novel methodology to effectively detect anomalies in DeFi. To the best of our knowledge, this is the first study to utilize deep learning to detect anomalies in DeFi. We propose a novel deep learning model, Anomaly VAE-Transformer, which combines the variational autoencoder to extract local information in the short-term and the transformer to identify dependencies between data in the long-term. Based on a deep understanding of DeFi protocols, the proposed model collects and analyzes various on-chain data of Olympus DAO, one of the representative DeFi protocols, to extract features suitable for anomaly detection. Then, we demonstrate the superiority of the proposed model by analyzing four anomaly cases successfully detected by the proposed model in Olympus DAO in detail. By using the proposed method to detect anomalies in DeFi, it is possible to quickly identify malicious attack attempt and structural changes in DeFi protocols, which is expected to protect the assets of DeFi users and improve the safety, reliability, and transparency of the DeFi market. 
 
+![Architecture](./fig/fig3.tiff)
+
 ### Training
 + Train VAE
   ```
